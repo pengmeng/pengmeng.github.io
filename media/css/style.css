@@ -17,7 +17,7 @@
 
 body {
   font-size: 14px;
-  font-family: "telexregular", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  font-family: "Microsoft YaHei", "telexregular", "Hiragino Sans GB", sans-serif;
   color: #555;
   background-color: #f9f9f9; }
 
@@ -60,13 +60,14 @@ code {
   background-color: #f8f8f8;
   padding: 2px 5px;
   border: 1px dashed #e0e0e0;
-  font-family: "Ubuntu", monospace; }
+  font-family: Monaco, monospace; 
+  font-size: 12pt; }
 
 h1, h2 {
   font-size: 1.4em; }
 
 time {
-  font-family: "Ubuntu", monospace; }
+  font-family: monospace; }
 
 header {
   width: 800px;
