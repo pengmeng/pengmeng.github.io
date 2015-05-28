@@ -1,5 +1,7 @@
 auto: true
-markdown: rdiscount
+markdown: redcarpet
+redcarpet:
+    extensions: ["fenced_code_blocks", "tables", "highlight", "strikethrough"]
 highlighter: pygments
 permalink: /:year/:month/:day/:title.html
 name: "Peng Meng"
