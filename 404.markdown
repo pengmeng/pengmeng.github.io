@@ -3,6 +3,7 @@ title: 404
 layout: page
 ---
 
-Nothing found :(
+恭喜你来到了从没有人来过的地方！  
+You found a place nobody has ever reached!
 
-But you still can have a [look around](/index.html)
+[Peng Meng](/index.html)
