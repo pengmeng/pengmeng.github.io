@@ -11,16 +11,22 @@ atom-baseurl: "http://mengpeng.cc"
 disqus: "pengmeng"
 
 navigations:
-  - title: Archive
-    class: fa fa-list-ul
-    href: /archive.html
-  - title: Tags
-    class: fa fa-tags
-    href: /tags.html
-  - title: About
-    class: fa fa-user
-    href: /about.html
-  - title: Subscribe
-    class: fa fa-rss
-    href: /atom.xml
+    - title: Archive
+      class: fa fa-list-ul
+      href: /archive.html
+    - title: Tags
+      class: fa fa-tags
+      href: /tags.html
+    - title: About
+      class: fa fa-user
+      href: /about.html
+    - title: Resume
+      class: fa fa-file-text-o
+      href: /index.html
+    - title: Links
+      class: fa fa-link
+      href: /index.html
+    - title: Subscribe
+      class: fa fa-rss
+      href: /atom.xml
 
