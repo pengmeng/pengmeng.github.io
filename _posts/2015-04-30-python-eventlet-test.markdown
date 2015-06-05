@@ -24,7 +24,7 @@ eventlet库用法非常简单，可以指定并发访问的url数，框架的最
 基本的测试思路是并发下载同一个页面，计算总耗时和平均耗时，并且统计总返回页面数是否和访问url数相等。
 测试代码如下：
 
-```python
+``` python
 import time
 import eventlet
 from eventlet.green import urllib2
