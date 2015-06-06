@@ -5,7 +5,7 @@ comments: true
 layout: post
 tags:
      - python
-     - thread
+     - 多线程
 ---
 ### 引
 灵感来源依旧是爬虫框架项目[pycrawler](https://github.com/pengmeng/PyCrawler)，爬虫作为子线程运行时不受键盘中断信号影响，Ctrl-C无法终止整个爬虫运行。另外的一个场景是多线程压力测试，需要提前终止的情况下，Ctrl-C依旧不能终止整个程序。除了简单粗暴的使用kill命令强行终止之外，本文将给出一个简单可行的解决方案。  
