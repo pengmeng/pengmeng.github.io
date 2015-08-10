@@ -24,7 +24,9 @@ tags:
 ### 查找
  - `*` 向后搜索当前词
  - `#` 向前搜索当前词
- - `/` 搜索 `n` 下一条命中 `N` 上一条命中
+ - `/` 向文件尾搜索
+ - `?` 向文件头搜索
+ -  `n` 下一条命中 `N` 上一条命中
  - `:nohl` 取消高亮
 
 ### 替换
@@ -68,8 +70,15 @@ tags:
  - `Ctrl w, 方向键` 切换窗口
  - `Ctrl t` top `Ctrl b` bottom
 
-### 外部
+### 命令
+ - `:n1, n2 del` or `:n1, n2 d` 删除n1, n2之间的内容
+ - `:n1, n2 move n3` or `:n1, n2 mo n3` 将n1, n2之间的内容移动到n3下一行
+ - `:n1, n2 copy n3` or `:n1, n2 co n3` 将n1, n2之间的内容移动到n3下一行
+ - `:n1, n2 >` `n1, n2 <` n1, n2之间的内容缩进、反缩进
+ - `:q` 退出 `:w` 写入 `:wq` or `:x` 写入并退出
  - `:!command` 执行shell command
+ - `:n1, n2 w!command` 将n1, n2之间的内容作为command的输入并执行
+ - `:r!command` 将command的执行结果写入当前行
  - `:shell` 开启一个默认shell
 
 ### 宏
