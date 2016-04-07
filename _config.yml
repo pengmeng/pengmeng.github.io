@@ -1,12 +1,12 @@
-markdown: redcarpet
-redcarpet:
-    extensions: ["fenced_code_blocks", "tables", "highlight", "strikethrough"]
-highlighter: pygments
+markdown: kramdown
+kramdown:
+    input: GFM
+    syntax_highlighter: rouge
 permalink: /:year/:month/:day/:title.html
 name: "Peng Meng"
 
 author: "Peng Meng"
-atom-baseurl: "http://mengpeng.cc"
+atom-baseurl: "http://pengmeng.me"
 disqus: "pengmeng"
 
 navigations:
