@@ -9,6 +9,7 @@ tags:
      - 快捷键
 ---
 [参考](http://blog.csdn.net/ceven2010/article/details/7406341)
+
 ### 移动
  - `Ctrl f` `Ctrl b` 向下、上翻页（tmux环境下需要按两次）
  - `Ctrl d` `Ctrl u` 向下、上翻半页
