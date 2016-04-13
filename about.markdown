@@ -3,11 +3,12 @@ title: '关于'
 layout: page
 ---
 [English](about-en.html)
+
 ### 我
 
- - 孟芃 1992-04 CS硕士在读 西北大学 Evanston USA
+ - 孟芃 1992-04 CS硕士 西北大学 Evanston USA
  - 吃货 程序猿 果粉 魔兽玩家 发烧友 段子手 伪魔术师
- - Python大法好 IDE党 信奉[Clean Code](http://book.douban.com/subject/4199741/) 常造废轮子 喜欢[Skrillex](http://www.skrillex.com) 坚持阅读 不文艺不普通
+ - Python大法好 IDE党 常造废轮子 喜欢[Skrillex](http://www.skrillex.com) 坚持阅读
 
 ### 找到我
 
