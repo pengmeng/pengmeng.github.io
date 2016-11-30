@@ -145,12 +145,12 @@ set background=dark
 ```
 
 ### 基本操作
-现在我们有了配置过的vim，虽然丑一点，但还是可以稳定工作的，下一步就要学习vim的基本操作了。vim的操作和各种快捷键组合简直复杂，基本上可以写一篇独立的博客来说了。之前一篇[Vim 快捷键总结](http://pengmeng.me/2015/08/10/vim-shortcuts.html)做了基本操作的总结，这里再推荐Stack Overflow上的帖子[What are the most-used vim commands/keypresses?](http://stackoverflow.com/questions/5400806/what-are-the-most-used-vim-commands-keypresses/5400978#5400978)。
+现在我们有了配置过的vim，虽然丑一点，但还是可以稳定工作的，下一步就要学习vim的基本操作了。vim的操作和各种快捷键组合简直复杂，基本上可以写一篇独立的博客来说了。之前一篇[Vim 快捷键总结](/2015/08/10/vim-shortcuts.html)做了基本操作的总结，这里再推荐Stack Overflow上的帖子[What are the most-used vim commands/keypresses?](http://stackoverflow.com/questions/5400806/what-are-the-most-used-vim-commands-keypresses/5400978#5400978)。
 
 ### 编辑/查看多个文件
 vim提供了window，buffer，tab三种方式进行单个文件的多窗口浏览以及编辑多个文件的功能。三个有联系也有区别，这一部分之后单独写一篇学习笔记。  
 一个很广泛的说法就是，vim大神都用buffer。  
-[学习笔记敬请期待]()
+[vim多文件浏览](/2016/11/30/vim-buffer-window-tab.html)
 
 ### 下期预告
 下一篇学习笔记中将介绍最开始提到的各种插件的安装和基本使用。
