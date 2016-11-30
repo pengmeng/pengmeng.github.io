@@ -14,7 +14,9 @@ tags:
 vim支持buffer、window、tab三种形式（层级）的多文件浏览，分别对应缓冲区、窗口、标签页。从vimdoc可以看出，三个层级依次升高，本文将从tab开始，依次递减来介绍三种形式的多文件浏览功能及操作。
 
 ### tab
+
 #### 以tab形式打开多个文件
+
 ``` shell
 vim -p .bashrc .vimrc
 ```
@@ -79,7 +81,9 @@ vim -p .bashrc .vimrc
 ```
 
 ### window
+
 #### 以window形式打开多个文件
+
 ``` shell
 vim -O file1 file2
 # 水平分割
